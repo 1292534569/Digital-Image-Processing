@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 # 读取图像
 img = cv.imread("./images/03.png",0)
+#3333333
 #2 显示图像
 #用cv显示图像
 cv.imshow("image",img)
