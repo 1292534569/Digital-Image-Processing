@@ -10,6 +10,7 @@ cv.imshow("image",img)
 cv.waitKey(0)
 cv.destroyAllWindows()
 #在matplotlib中显示
+plt.figure(figsize=(20,10),dpi=100)
 plt.imshow(img,cmap=plt.cm.gray)
 plt.title("匹配结果"),plt.xticks([]),plt.yticks([])
 plt.show()
