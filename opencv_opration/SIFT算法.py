@@ -10,7 +10,9 @@ gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 sift = cv.SIFT_create()
 #3.4以前用下面的语句初始化
 # sift = cv.xfeatures2d.SIFT_create()
+#def为关键点的描述
 kp,des = sift.detectAndCompute(gray,None)
+print(des)
 #最后一个参数为绘制方式
 cv.drawKeypoints(img,kp,img,flags=cv.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
 plt.figure(figsize=(10,13),dpi=100)
