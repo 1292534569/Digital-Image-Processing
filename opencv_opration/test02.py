@@ -16,3 +16,4 @@ cv.putText(img,"opencv",(10,500),font,4,(255,255,255),2,cv.LINE_AA)
 plt.imshow(img[:,:,::-1])
 plt.title("匹配结果"),plt.xticks([]),plt.yticks([])
 plt.show()
+#test01
